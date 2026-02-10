@@ -98,7 +98,7 @@ export default function AssetCreation({ assetManager }: AssetCreationProps) {
   };
 
   return (
-    <div className="max-w-4xl space-y-4">
+    <div className=" space-y-4">
       <Card className="bg-card border-border">
         <CardHeader>
           <CardTitle>Create New Asset</CardTitle>

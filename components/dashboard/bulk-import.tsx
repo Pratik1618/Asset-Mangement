@@ -98,7 +98,7 @@ export default function BulkImport() {
   const invalidCount = previewData.filter((item) => item.status === 'invalid').length;
 
   return (
-    <div className="max-w-4xl space-y-4">
+    <div className=" space-y-4">
       {importStep === 'upload' && (
         <Card className="bg-card border-border">
           <CardHeader>
