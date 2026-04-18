@@ -71,11 +71,11 @@ export default function Home() {
             </TabsContent>
 
             <TabsContent value="import">
-              <BulkImport assetManager={assetManager} />
+              <BulkImport />
             </TabsContent>
 
             <TabsContent value="reports">
-              <ReportsAnalytics assetManager={assetManager} />
+              <ReportsAnalytics />
             </TabsContent>
           </Tabs>
         </div>
